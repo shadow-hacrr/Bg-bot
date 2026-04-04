@@ -3,7 +3,7 @@ const SY = require('node-telegram-bot-api');
 const fs = require('fs');
 const path = require('path');
 const config = require('./config');
-const { default: makeWASocket, useMultiFileAuthState, delay, DisconnectReason, makeCacheableSignalKeyStore } = require('baileys');
+const { default: makeWASocket, useMultiFileAuthState, delay, DisconnectReason, makeCacheableSignalKeyStore } = require('@whiskeysockets/baileys');
 const pino = require('pino');
 
 console.clear();
